@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width" , initial-scale="1.0">
+	<title></title>
+</head>
+<body>
+<form action="" method="post">
+	<table>
+	<tr><td> İsim Giriniz: </td><td><input type="text" placeholder="İsim" autofocus required><br></td></tr>
+	<tr><td> Soyisim Giriniz: </td><td><input type="text" placeholder="Soyisim" required><br></td></tr>
+	<tr><td> Cinsiyet: </td><td><input type="radio" name="Cinsiyet" checked>Erkek <input type="radio" name="Cinsiyet">Kadın<br></td></tr>
+	<tr><td> Yaş: </td><td><input type="date"><br></td></tr>
+	</table>
+	 Doğum Yeri:<select name="Dogum Yeri" size="1">
+	<optgroup label="Marmara">
+	<option value="Bursa">Bursa</option>
+	<option value="İstanbul">İstanbul</option>
+	</optgroup>
+	<optgroup label="İç Anadolu">
+	<option value="Ankara">Ankara</option>
+	<option value="Yozgat">Yozgat</option>
+	<option value="Eskişehir">Eskişehir</option>
+	</optgroup>
+	<optgroup label="Ege">
+	<option value="Aydın">Aydın</option>
+	<option value="Antalya">Antalya</option>
+	<option value="İzmir">İzmir</option>
+	</optgroup>
+	</select>
+	<table>
+	<tr><td> Girilecek Mevkii: </td><td><input type="text" placeholder="KARA KUVVETLERİ" disabled><br></td></tr>
+	<tr><td> Bölük: </td><td><input type="text" placeholder="46.Devre" readonly><br></td></tr>
+	<tr><td> Hangi Ay Başvurmak İstiyorsunuz: </td><td><input type="month"><br></td></tr>
+	<tr><td> Acemilik Yeri Ve Bölgesi: </td><td><input type="text" placeholder="Acemilik Yeri Ve Bölgesi" size="50" required><br></td></tr>
+	<tr><td> Acemi Bölge Numaranız: </td><td><input type="text" maxlength="5" required><br></td></tr>
+	<tr><td> Tc Kimlik Numaranız: </td><td><input type="number" minlength="11" maxlength="11" required><br></td></tr>
+	<tr><td> E Devlet Mail: </td><td><input type="Mail" required><br></td></tr>
+	<tr><td> E Devlet Şifreniz: </td><td><input type="password" required><br></td></tr>
+	<tr><td> Telefon Numaranız: </td><td><input type="tel"><br></td></tr>
+	<tr><td> Biyometrik Fotoğraf: </td><td><input type="file"><br></td></tr>
+	</table>
+	Hangi Spor Dalları İle İlgileniyorsunuz: <input type="checkbox" name="Futbol">Futbol
+	<input type="checkbox" name="Basketbol">Basketbol
+	<input type="checkbox" name="Voleybol">Voleybol
+	<input type="checkbox" name="Tenis/Masa Tenisi">Tenis/Masa Tenisi
+	<input type="checkbox" name="Yüzme">Yüzme<br>
+	Diğer: <br><textarea rows="3" cols="25" placeholder="Lütfen Belirtiniz"></textarea><br>
+	En Sevdiğiniz Renk: <input type="color"><br>
+	<input type="submit"><br>
+	<input type="reset" name="Formu Temizle">
+	<input type="hidden" name="tarih" value="8 ağustos">
+</form>
+</body>
+</html>
