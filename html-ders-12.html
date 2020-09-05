@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width" , initial-scale="1.0">
+	<title></title>
+</head>
+<body>
+
+<!-- Form - Form İnput Tipleri -->
+
+<form action="" method="post">
+	Text:  <input type="text"><br/> <!-- Kullanıcıdan text almak için -->
+	Şifre: <input type="password"><br/> <!-- kullanıcıdan şifre almak -->
+	Sayı:  <input type="number" required=><br/> <!-- kullanıcıdan sadece numara almak için -->
+	Mail:  <input type="email"><br/> <!-- kullanıcıdan e-mail almak için -->
+	Tel:   <input type="tel"><br/><hr/> <!-- kullanıcıdan telefon numarası almak için -->
+
+	Tıklama Olayı: <input type="button" value="Tıkla"><br/> <!-- button= hiçbir işlevi yoktur tıklandığı zaman bir işlem yapmak için kullanılır -->
+	Gönder:        <input type="submit"><br/> <!-- tıklandığı zaman verileri herhangi bir sayfaya göndermek için kullanılır -->
+	Temizle:	   <input type="reset"><br/><hr/> <!-- formu temizlemek için kullanılır -->
+
+	Dosya Seçim:   <input type="file"><br/> <!-- kullanıcıdan dosya almak için(resim,video) -->
+	Seçim:         <input type="radio" name="cinsiyet">Erkek
+				   <input type="radio" name="cinsiyet">Kadın <br/> <!-- kadın erkek vs cinsiyet seçimi. name="cinsiyet"= tek seçim yapılmasını sağlar. -->
+	Çoklu Seçim:   <input type="checkbox" name="Basketbol">Basketbol
+				   <input type="checkbox" name="Futbol">Futbol
+				   <input type="checkbox" name="Voleybol">Voleybol <br/> <!-- hangi spor dallarını seversin değeri almak. -->
+	Değer Aralığı: <input type="range"><br/><hr/> <!-- kaydırma çubuğuyla belirli bir aralık belirlemek için kulalnılır(100tl-500tl) -->
+
+	Tarih:         <input type="date"><br/> <!-- tarih seçimi yapmamızı sağlar. -->
+	Zaman:         <input type="time"><br/> <!-- saat seçimi yapmamızı sağlar -->
+	Ay:            <input type="month"><br/> <!-- ay seçimi yapmamızı sağlar -->
+	Hafta:         <input type="tweek"><br/> <!-- hafta seçimi yapmamızı sağlar -->
+ 
+	Renk Paleti:   <input type="color"><br/> <!-- tüm renkler açılır -->
+	Arama:         <input type="search"><br/> <!-- sitede arama yapmamızı aradığımızıa kısa sürede ulaşmamızı sağlar -->
+	Gizli:         <input type="hidden"><br/> <!-- bazı verileri saklamaya yarar -->
+	
+</form>
+</body>
+</html>
