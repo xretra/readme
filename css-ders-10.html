@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width" , initial-scale="1.0">
+	<title>css-ders-10-buttons</title>
+	<style type="text/css">
+		.btn {
+			border: none; /* çerçeve yok */
+			color: white; /* çerçeve içindeki yazı rengi */
+			padding: 14px 28px; /* çerçevenin büyüklüğünü ayarlama. ilk px= y çizgisi(yukarı-aşağı) ikinci px= x çizgisi(sağ sol) */
+			font-size: 16px; /* puntodur, yazı büyüklüğü */
+			color: pointer; /* seçeneği üzerine geldiğimizde normal fare imleci değil de seçme fare imleci çıkar */
+		}
+
+		.btn-succes {
+			background-color: #4CAF50;
+		} /* Green */
+
+		.btn-info {
+			background-color: #2196F3;
+		} /* Blue */
+
+		.btn-warning {
+			background-color: #ff9800;
+		} /* Orange */
+
+		.btn-danger {
+			background-color: #f44336;
+		} /* Red */
+
+		.btn-default {
+			background-color: #e7e7e7;
+			color: #000;
+		} /* Gray */
+
+		/* HOVER */
+		.btn-succes:hover {
+			background-color: #46A049;
+		} /* Green */
+
+		.btn-info:hover {
+			background-color: #0b7dda;
+		} /* Blue */
+
+		.btn-warning:hover {
+			background-color: #e68a00;
+		} /* Orange */
+
+		.btn-danger:hover {
+			background-color: #da190b;
+		} /* Red */
+
+		.btn-default:hover {
+			background-color: #ddd;
+		} /* Gray */
+
+	</style>
+</head>
+<body>
+
+	<button class="btn btn-succes">Button Text</button>
+	<button class="btn btn-info">Button Text</button>
+	<button class="btn btn-warning">Button Text</button>
+	<button class="btn btn-danger">Button Text</button>
+	<button class="btn btn-default">Button Text</button>
+
+</body>
+</html>

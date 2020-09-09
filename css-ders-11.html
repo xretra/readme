@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width" , initial-scale="1.0">
+	<title>css-ders-11-outline buttons</title>
+	<style type="text/css">
+		
+		.btn-outline {
+			border: 2px solid #000; /* çerçevenin kenar(dış çizgi) ve rengi */
+			background-color: #FFF; /* çerçevenin arka plan rengi */
+			color: #000; /* çerçeve içindeki yazının rengi */
+			padding: 14px 28px; /* çerçevenin büyüklüğünü ayarlama */
+			font-size: 16px; /* çerçevenin büyüklüğünü ayarlama. ilk px= y çizgisi(yukarı-aşağı) ikinci px= x çizgisi(sağ sol) */
+			border-radius: 5px; /* puntodur, yazı büyüklüğü */
+			cursor: pointer;
+		}
+
+		.btn-outline-succes {
+			border-color: #4caf50; /* çerçevenin kenar rengi */
+			color: #4caf50; /* çerçevenin içindeki yazının rengi */
+			/* Green */
+		}
+
+		.btn-outline-info {
+			border-color: #2196f3;
+			color: #2196f3;
+			/* Blue */
+		}
+
+		.btn-outline-warning {
+			border-color: #ff9800;
+			color: #ff9800;
+			/* Orange */
+		}
+
+		.btn-outline-danger {
+			border-color: #f44336;
+			color: #f44336;
+			/* Red */
+		}
+
+		.btn-outline-default {
+			border-color: #e7e7e7;
+			color: #000;
+		} 	/* Gray */
+
+		/* HOVER */
+		.btn-outline-succes:hover { /* hover= imleç çerçevenin içine geldiğinde aşağıdaki rengi çıkarır */
+			background-color: #4caf50; /* çerçevenin üzerine imleç geldiğinde arka planın hangi renk olacağını belirler */
+			color: #FFF; /* çerçevenin üzerine imleç geldiğinde içeride yazının hangi renk olacağını belirler */
+			/* Green */
+		}
+
+		.btn-outline-info:hover {
+			background-color: #2196f3;
+			color: #FFF;
+			/* Blue */
+		}
+
+		.btn-outline-warning:hover {
+			background-color: #ff9800;
+			color: #FFF;
+			/* Orange */
+		}
+
+		.btn-outline-danger:hover {
+			background-color: #f44336;
+			color: #FFF;
+			/* Red */
+		}
+
+		.btn-outline-default:hover {
+			background-color: #e7e7e7;
+			color: #000;
+		} 	/* Gray */
+	</style>
+</head>
+<body>
+
+	<button class="btn-outline btn-outline-succes">Button Text</button>
+	<button class="btn-outline btn-outline-info">Button Text</button>
+	<button class="btn-outline btn-outline-warning">Button Text</button>
+	<button class="btn-outline btn-outline-danger">Button Text</button>
+	<button class="btn-outline btn-outline-default">Button Text</button>
+
+
+</body>
+</html>
